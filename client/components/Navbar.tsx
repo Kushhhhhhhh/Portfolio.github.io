@@ -1,6 +1,17 @@
+'use client'
 import React from "react"
 
 const Navbar = () => {
+
+  const handleClick = () => {
+    const link = document.createElement('a');
+    link.href = 'https://ibb.co/FWqP2mV';
+    link.download = 'CV.jpg';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
   return (
     <main>
       <div className="navbar bg-base-100">
@@ -27,7 +38,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Download CV</a>
+    <a className="btn" onClick={handleClick}>Download CV</a>
   </div>
 </div>
     </main>
