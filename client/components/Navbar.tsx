@@ -1,5 +1,6 @@
 'use client'
 import React from "react"
+import Link from 'next/link'
 
 const Navbar = () => {
 
@@ -21,20 +22,20 @@ const Navbar = () => {
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </div>
       <ul tabIndex={0} className="menu flex items-center font-semibold menu-sm dropdown-content mt-3 z-[1] p-5 shadow bg-base-100 rounded-box w-52">
-        <li><a>About</a></li>
-        <li><a>Skill</a></li>
-        <li><a>Project</a></li>
-        <li><a>Contact</a></li>
+        <li><Link href="/about">About</Link></li>
+        <li><Link href="/project">Project</Link></li>
+        <li><Link href="/skills">Skills</Link></li>
+        <li><Link href="/contact">Contact</Link></li>
       </ul>
     </div>
     <a className="btn btn-ghost text-xl">Kush Sharma</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>About</a></li>
-      <li><a>Skills</a></li>
-      <li><a>Projects</a></li>
-      <li><a>Contact</a></li>
+        <li><Link href="/about">About</Link></li>
+        <li><Link href="/project">Project</Link></li>
+        <li><Link href="/skills">Skills</Link></li>
+        <li><Link href="/contact">Contact</Link></li>
     </ul>
   </div>
   <div className="navbar-end">
