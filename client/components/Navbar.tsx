@@ -36,12 +36,12 @@ const Navbar = () => {
         <li><Link href="/project">Project</Link></li>
         <li><Link href="/skills">Skills</Link></li>
         <li><Link href="/contact">Contact</Link></li>
-    </ul>
-  </div>
-  <div className="navbar-end">
-    <a className="btn" onClick={handleClick}>Download CV</a>
-  </div>
-</div>
+       </ul>
+      </div>
+       <div className="navbar-end">
+         <a className="btn" onClick={handleClick}>Download CV</a>
+        </div>
+      </div>
     </main>
   )
 }
