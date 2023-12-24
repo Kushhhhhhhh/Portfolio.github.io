@@ -7,6 +7,15 @@ const Projects = () => {
   
   const projectsData = [
     {
+      name: "Travel App",
+      description: "Hilink is a revolutionary travel app designed to enhance the tourism experience for travelers.",
+      imageUrl: "https://i.ibb.co/8swb5bB/Travel.png",
+      tab: "Web Development",
+      languagesUsed: ["Next JS + Tailwind CSS"],
+      link: "https://github.com/Kushhhhhhhh/Travel-App",
+      live: "https://travel-app-kushhhhhhhh.vercel.app/"
+    },
+    {
       name: "KiK's - Make Friends",
       description: "Kiks - Make Friends is a revolutionary social app connecting people worldwide, fostering genuine connections and meaningful friendships effortlessly.",
       imageUrl: "https://i.ibb.co/yFj6DFG/kik.jpg",
@@ -70,48 +79,49 @@ const Projects = () => {
 
   return (
     <>
-      <main className="w-full min-h-screen flex flex-col items-center">
-  <div className="tabs flex flex-wrap justify-center m-4">
-    <button
-      className={`tab tab-bordered ${activeTab === 'All' ? 'tab-active' : ''}`}
-      onClick={() => handleTabClick('All')}
-    >
-      All
-    </button>
-    <button
-      className={`tab tab-bordered ${activeTab === 'Web Development' ? 'tab-active' : ''}`}
-      onClick={() => handleTabClick('Web Development')}
-    >
-      Web Development
-    </button>
-    <button
-      className={`tab tab-bordered ${activeTab === 'Web Design' ? 'tab-active' : ''}`}
-      onClick={() => handleTabClick('Web Design')}
-    >
-      Web Design
-    </button>
-    <button
-      className={`tab tab-bordered ${activeTab === 'Games' ? 'tab-active' : ''}`}
-      onClick={() => handleTabClick('Games')}
-    >
-      Games
-    </button>
-  </div>
-  <div className="project-cards flex flex-wrap justify-center gap-4 p-4">
-  {filteredProjects.map((project, index) => (
-    <div className="card-container text-slate-300 font-normal" key={index}>
-      <ProjectCard
-        name={project.name}
-        description={project.description}
-        imageUrl={project.imageUrl}
-        languagesUsed={project.languagesUsed}
-        link={project.link}
-        live={project.live}
-      />
-    </div>
-  ))}
-</div>
-</main>
+     <main className="w-full min-h-screen flex flex-col items-center">
+      <div className="tabs flex flex-wrap justify-center m-4">
+          <button
+            className={`tab tab-bordered ${activeTab === 'All' ? 'tab-active hover:font-bold' : ''}`}
+            onClick={() => handleTabClick('All')}
+          >
+            All
+          </button>
+          <button
+            className={`tab tab-bordered hover:font-bold ${activeTab === 'Web Development' ? 'tab-active' : ''}`}
+            onClick={() => handleTabClick('Web Development')}
+          >
+            Web Development
+          </button>
+          <button
+            className={`tab tab-bordered hover:font-bold ${activeTab === 'Web Design' ? 'tab-active' : ''}`}
+            onClick={() => handleTabClick('Web Design')}
+          >
+            Web Design
+          </button>
+          <button
+            className={`tab tab-bordered hover:font-bold ${activeTab === 'Games' ? 'tab-active' : ''}`}
+            onClick={() => handleTabClick('Games')}
+          >
+            Games
+          </button>
+        </div>
+        <div className="project-cards flex flex-wrap justify-center gap-4 p-4">
+        {filteredProjects.map((project, index) => (
+         <div className="card-container text-slate-300 font-normal lg:w-1/3" key={index}>
+            <ProjectCard
+              name={project.name}
+              description={project.description}
+              imageUrl={project.imageUrl}
+              className="hidden lg:block"
+              languagesUsed={project.languagesUsed}
+              link={project.link}
+              live={project.live}
+            />
+          </div>
+        ))}
+      </div>
+   </main>
     </>
   );
 }
