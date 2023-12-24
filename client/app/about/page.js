@@ -3,8 +3,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
-      
+    <div className='bg-slate-900 text-white'>
+      <p>about</p>
     </div>
   )
 }

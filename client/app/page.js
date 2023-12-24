@@ -1,11 +1,10 @@
-import Hero from "@/pages/Hero";
-import Projects from "@/pages/Projects";
+import Link from 'next/link'
+import Homepage from "./homepage/page";
 
 export default function Home() {
   return (
     <>
-       <Hero />
-       <Projects />
+       <Link href='/'><Homepage /></Link>
     </>
   )
 }
