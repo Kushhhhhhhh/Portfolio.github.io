@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import ContactCard from '../components/ContactCard';
 
@@ -12,13 +13,8 @@ const Contact = () => {
   return (
     <main className='w-full min-h-screen font-bold bg-slate-800 p-4 md:p-8 lg:p-12 xl:p-16 flex flex-wrap justify-center'>
   {data.map((item) => (
-    <ContactCard
-      key={item.title}
-      title={item.title}
-      src={item.src}
-      className="mb-8 md:w-1/2 lg:w-1/4 xl:w-1/4"
-    />
-  ))}
+        <ContactCard key={item.title} title={item.title} src={item.src} link={item.link} />
+      ))}
 </main>
 
   );
