@@ -11,7 +11,7 @@ const Projects = () => {
       description: "Hilink is a revolutionary travel app designed to enhance the tourism experience for travelers.",
       imageUrl: "https://i.ibb.co/8swb5bB/Travel.png",
       tab: "Web Design",
-      languagesUsed: ["Next JS + Tailwind CSS"],
+      languagesUsed: ["Next JS", "Tailwind CSS"],
       link: "https://github.com/Kushhhhhhhh/Travel-App",
       live: "https://travel-app-kushhhhhhhh.vercel.app/"
     },

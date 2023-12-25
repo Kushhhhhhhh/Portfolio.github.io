@@ -38,7 +38,7 @@ const Navbar = () => {
         <li  className="text-white text-base hover:text-slate-300 hover:font-bold"><Link href="/contact">Contact</Link></li>
        </ul>
       </div>
-       <div className="navbar-end">
+       <div className="navbar-end gap-3">
          <button className="btn border-slate-900" onClick={handleClick}>Download CV</button>
         </div>
       </div>
