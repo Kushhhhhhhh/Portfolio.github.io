@@ -10,7 +10,7 @@ const Projects = () => {
       name: "Travel App",
       description: "Hilink is a revolutionary travel app designed to enhance the tourism experience for travelers.",
       imageUrl: "https://i.ibb.co/8swb5bB/Travel.png",
-      tab: "Web Development",
+      tab: "Web Design",
       languagesUsed: ["Next JS + Tailwind CSS"],
       link: "https://github.com/Kushhhhhhhh/Travel-App",
       live: "https://travel-app-kushhhhhhhh.vercel.app/"
@@ -79,8 +79,8 @@ const Projects = () => {
 
   return (
     <>
-     <main className="w-full min-h-screen flex flex-col items-center">
-      <div className="tabs flex flex-wrap justify-center m-4">
+     <main className="w-full min-h-screen flex flex-col items-center bg-slate-800">
+      <div className="tabs flex font-semibold flex-wrap justify-center m-8 border-2 border-slate-400 rounded-lg ">
           <button
             className={`tab tab-bordered ${activeTab === 'All' ? 'tab-active hover:font-bold' : ''}`}
             onClick={() => handleTabClick('All')}
@@ -105,6 +105,7 @@ const Projects = () => {
           >
             Games
           </button>
+          
         </div>
         <div className="project-cards flex flex-wrap justify-center gap-4 p-4">
         {filteredProjects.map((project, index) => (

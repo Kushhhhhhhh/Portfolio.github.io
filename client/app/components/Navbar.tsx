@@ -39,7 +39,7 @@ const Navbar = () => {
        </ul>
       </div>
        <div className="navbar-end">
-         <a className="btn" onClick={handleClick}>Download CV</a>
+         <button className="btn border-slate-900" onClick={handleClick}>Download CV</button>
         </div>
       </div>
     </main>

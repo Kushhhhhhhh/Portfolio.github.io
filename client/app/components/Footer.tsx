@@ -27,7 +27,7 @@ const Footer = () => {
   };
 
   return (
-    <footer suppressHydrationWarning={true} className="footer flex flex-col md:flex-row justify-center md:justify-between items-center p-4 bg-neutral text-neutral-content">
+    <footer suppressHydrationWarning={true} className="footer flex flex-col md:flex-row justify-center md:justify-between items-center p-4 bg-base-300 text-neutral-content">
       <aside className="md:mb-0">
         <p className="text-center md:text-left">Copyright © 2023 - All rights reserved</p>
       </aside>
