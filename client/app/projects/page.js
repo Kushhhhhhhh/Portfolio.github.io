@@ -80,7 +80,7 @@ const Projects = () => {
   return (
     <>
      <main className="w-full min-h-screen flex flex-col items-center bg-slate-800">
-      <div className="tabs flex font-semibold flex-wrap justify-center m-8 border-2 border-slate-400 rounded-lg ">
+      <div role="tablist" className="tabs tabs-lifted flex font-semibold flex-wrap justify-center m-8 border-2 border-slate-400 rounded-lg ">
           <button
             className={`tab tab-bordered ${activeTab === 'All' ? 'tab-active hover:font-bold' : ''}`}
             onClick={() => handleTabClick('All')}
