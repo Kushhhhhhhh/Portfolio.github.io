@@ -6,7 +6,7 @@ const Navbar = () => {
 
   const handleClick = () => {
     const link = document.createElement('a');
-    link.href = 'https://ibb.co/FWqP2mV';
+    link.href = 'https://i.ibb.co/qnFZK75/CV.jpg';
     link.download = 'CV.jpg';
     document.body.appendChild(link);
     link.click();
@@ -28,7 +28,7 @@ const Navbar = () => {
         <li  className="text-white text-base hover:text-slate-300 hover:font-bold"><Link href="/contact">Contact</Link></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Kush Sharma</a>
+    <Link className="btn btn-ghost text-xl" href="/">Kush Sharma</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
