@@ -2,25 +2,28 @@ import React from 'react'
 import SkillCard from '../components/SkillCard'
 
 const data =[
-  {title: 'HTML', src: '/html.jpg', description: "It's a markup language used to structure content on the web."},
-  {title: 'CSS', src: '/css.jpg', description: ' It plays a crucial role in making websites visually appealing and responsive across different devices.'},
-  {title: 'JavaScript', src: '/javascript.jpg', description: 'JavaScript is a programming language that adds interactivity and dynamic behavior to web pages.'},
-  {title: 'React', src: '/react.jpg', description: ' React, A JavaScript library for building user interfaces is widely used for creating single-page applications.'},
-  {title: 'Next JS', src: '/nextjs.jpg', description: 'Next.js is a React framework for building server-side rendered (SSR) and statically generated web applications. '},
+  {title: 'HTML', src: '/html.jpg', description: "I excel in crafting clean, semantic HTML code that forms the foundation of any webpage."},
+  {title: 'CSS', src: '/css.jpg', description: ' Proficient in traditional CSS as well as modern frameworks like Tailwind CSS, I create visually appealing, responsive designs that adapt seamlessly across devices.'},
+  {title: 'JavaScript', src: '/javascript.jpg', description: ' From handling user inputs to asynchronous operations, my expertise ensures smooth and engaging user experiences.'},
+  {title: 'React', src: '/react.jpg', description: "I've honed my skills in creating reusable components, managing state efficiently, and optimizing performance."},
+  {title: 'Next JS', src: '/nextjs.jpg', description: 'I incorporate Next.js to supercharge my React applications. Server-side rendering and seamless routing are part of my arsenal to enhance performance and provide a faster, more fluid user experience.'},
 ];
 
 const Services = () => {
   return (
     <main className="w-full min-h-screen font-bold bg-slate-800 p-4 md:p-8 lg:p-12 xl:p-16 flex flex-wrap justify-center items-center">
   <p className='text-slate-200 text-4xl w-full text-center mb-8'>Web Technologies</p>
-  <div className="flex flex-wrap justify-center">
+  <div className="w-full flex flex-wrap justify-center">
     {data.map((item) => (
-      <div key={item.title} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4">
+      <div key={item.title} className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
         <SkillCard title={item.title} src={item.src} description={item.description}/>
       </div>
     ))}
   </div>
 </main>
+
+
+
 
   )
 }

@@ -4,7 +4,7 @@ import Image from 'next/image';
 const SkillCard = ({ title, src, description }) => {
   return (
     <div className="card w-64 bg-base-100 shadow-xl m-6">
-  <figure className='rounded-lg'>
+  <figure className='rounded-full'>
     <Image src={src} alt="images" width={257} height={220} className='overflow-hidden'/>
   </figure>
   <div className="card-body flex flex-col justify-center items-center p-4">
