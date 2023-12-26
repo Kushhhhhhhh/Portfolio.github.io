@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
       <ul tabIndex={0} className="menu flex items-center font-semibold menu-sm dropdown-content mt-3 z-[1] p-5 shadow bg-base-100 rounded-box w-52">
       <li className="text-white text-base hover:text-slate-300 hover:font-bold"><Link href="/about">About</Link></li>
-        <li  className="text-white text-base hover:text-slate-300 hover:font-bold"><Link href="/skills">Skills</Link></li>
+        <li  className="text-white text-base hover:text-slate-300 hover:font-bold"><Link href="/services">Services</Link></li>
         <li  className="text-white text-base hover:text-slate-300 hover:font-bold"><Link href="/projects">Projects</Link></li>
         <li  className="text-white text-base hover:text-slate-300 hover:font-bold"><Link href="/contact">Contact</Link></li>
       </ul>
@@ -33,7 +33,7 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
     <li className="text-white text-base hover:text-slate-300 hover:font-bold"><Link href="/about">About</Link></li>
-        <li  className="text-white text-base hover:text-slate-300 hover:font-bold"><Link href="/skills">Skills</Link></li>
+        <li  className="text-white text-base hover:text-slate-300 hover:font-bold"><Link href="/services">Services</Link></li>
         <li  className="text-white text-base hover:text-slate-300 hover:font-bold"><Link href="/projects">Projects</Link></li>
         <li  className="text-white text-base hover:text-slate-300 hover:font-bold"><Link href="/contact">Contact</Link></li>
        </ul>

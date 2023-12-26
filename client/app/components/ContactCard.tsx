@@ -9,7 +9,7 @@ const ContactCard = ({ title, src, link }) => {
 
   return (
 
-    <div className="card w-64 h-[460px] bg-base-100 shadow-xl m-6 p-4">
+    <div className="card w-64 h-[460px] bg-base-100 shadow-xl m-6">
       <figure>
         <Image src={src} alt="images" width={260} height={220} className='overflow-hidden'/>
       </figure>

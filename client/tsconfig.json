@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "app/about/page.js", "app/contact/page.js", "app/homepage/page.js", "app/projects/page.js", "app/skills/page.js"  ],
+, "app/about/page.js", "app/contact/page.js", "app/homepage/page.js", "app/projects/page.js", "app/services/page.js"  ],
   "exclude": [
     "node_modules"
   ]
