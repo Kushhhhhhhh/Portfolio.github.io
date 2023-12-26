@@ -32,25 +32,25 @@ const About = () => {
 <div className="max-w-screen-lg mx-auto">
     <h2 className="text-2xl font-bold mb-4 text-center">Self Evaluation</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <div className="bg-white p-4 rounded-lg shadow-lg">
+      <div className="bg-white p-3 rounded-lg border-slate-800 shadow-lg mb-4">
         <h3 className="text-xl text-slate-800 font-semibold">Personal Growth</h3>
         <p className="text-slate-600">
           Reflecting on my experiences and seeking opportunities for growth in various aspects of life.
         </p>
       </div>
-      <div className="bg-white p-4 rounded-lg shadow-lg">
+      <div className="bg-white p-3 rounded-lg shadow-lg mb-4">
         <h3 className="text-xl text-slate-800 font-semibold">Adaptability</h3>
         <p className="text-slate-600">
           Quickly adjusting to new environments, technologies, and roles to stay effective and productive.
         </p>
       </div>
-      <div className="bg-white p-4 rounded-lg shadow-lg">
+      <div className="bg-white p-3 rounded-lg shadow-lg mb-4">
         <h3 className="text-xl text-slate-800 font-semibold">Continuous Learning</h3>
         <p className="text-slate-600">
           Actively seeking and absorbing knowledge to stay updated with industry trends and improve skills.
         </p>
       </div>
-      <div className="bg-white p-4 rounded-lg shadow-lg">
+      <div className="bg-white p-3 rounded-lg shadow-lg mb-4">
         <h3 className="text-xl text-slate-800 font-semibold">Team Collaboration</h3>
         <p className="text-slate-600">
           Working effectively with diverse teams, valuing different perspectives, and contributing to collective success.
