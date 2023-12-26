@@ -2,8 +2,6 @@ import React from 'react'
 import SkillCard from '../components/SkillCard'
 
 const data =[
-  {title: 'HTML', src: '/html.jpg', description: "I excel in crafting clean, semantic HTML code that forms the foundation of any webpage."},
-  {title: 'CSS', src: '/css.jpg', description: ' Proficient in traditional CSS as well as modern frameworks like Tailwind CSS, I create visually appealing, responsive designs that adapt seamlessly across devices.'},
   {title: 'JavaScript', src: '/javascript.jpg', description: ' From handling user inputs to asynchronous operations, my expertise ensures smooth and engaging user experiences.'},
   {title: 'React', src: '/react.jpg', description: "I've honed my skills in creating reusable components, managing state efficiently, and optimizing performance."},
   {title: 'Next JS', src: '/nextjs.jpg', description: 'I incorporate Next.js to supercharge my React applications. Server-side rendering and seamless routing are part of my arsenal to enhance performance and provide a faster, more fluid user experience.'},
