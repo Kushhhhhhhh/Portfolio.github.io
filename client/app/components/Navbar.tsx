@@ -28,7 +28,7 @@ const Navbar = () => {
         <li  className="text-white text-base hover:text-slate-300 hover:font-bold"><Link href="/contact">Contact</Link></li>
       </ul>
     </div>
-    <Link className="btn btn-ghost text-xl" href="/">Kush Sharma</Link>
+    <Link className="btn btn-ghost text-xl hover:font-bold" href="/">Kush Sharma</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -39,7 +39,7 @@ const Navbar = () => {
        </ul>
       </div>
        <div className="navbar-end gap-3">
-         <button className="btn border-slate-900" onClick={handleClick}>Download CV</button>
+         <button className="btn text-md hover:font-bold border-slate-900" onClick={handleClick}>Download CV</button>
         </div>
       </div>
     </main>

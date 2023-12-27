@@ -6,7 +6,7 @@ import React from 'react';
 const Hero = () => {
   useEffect(() => {
     const options = {
-      strings: ['Full Stack Developer', 'MERN Stack Developer'],
+      strings: ['Front End Developer', 'upcoming MERN Stack Developer'],
       typeSpeed: 40,
       backSpeed: 20, 
       backDelay: 1000,

@@ -4,7 +4,7 @@ import SkillCard from '../components/SkillCard'
 const data =[
   {title: 'JavaScript', src: '/javascript.jpg', description: ' From handling user inputs to asynchronous operations, my expertise ensures smooth and engaging user experiences.'},
   {title: 'React', src: '/react.jpg', description: "I've honed my skills in creating reusable components, managing state efficiently, and optimizing performance."},
-  {title: 'Next JS', src: '/nextjs.jpg', description: 'I incorporate Next.js to supercharge my React applications. Server-side rendering and seamless routing are part of my arsenal to enhance performance and provide a faster, more fluid user experience.'},
+  {title: 'Next JS', src: '/nextjs.jpg', description: 'With Static Site Generation and Server-Side Rendering in their toolbelt, I craft SEO-friendly websites that perform like greased lightning.'},
 ];
 
 const Services = () => {
